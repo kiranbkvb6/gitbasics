@@ -20,7 +20,7 @@ public class binarysearch {
             int mid = left + (right - left) / 2;
 
             if (arr[mid] == target) {
-                return mid; // Element found
+                return mid; // got an Element 
             }
             if (arr[mid] < target) {
                 left = mid + 1; // Search in the right half
