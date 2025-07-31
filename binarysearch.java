@@ -23,7 +23,7 @@ public class binarysearch {
                 return mid; // got an Element 
             }
             if (arr[mid] < target) {
-                left = mid + 1; // Search in the right half
+                left = mid + 1; // Search in  right half
             } else {
                 right = mid - 1; // Search in the left half
             }
