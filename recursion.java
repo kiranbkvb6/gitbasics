@@ -4,7 +4,7 @@ public class recursion {
     public static void main(String[] args) {
         int n = 5; // Example input
         int result = factorial(n);
-        System.out.println("Factorial of " + n + " is: " + result);
+        System.out.println("Factorial" + n + " is: " + result);
     }
 
     public static int factorial(int n) {
